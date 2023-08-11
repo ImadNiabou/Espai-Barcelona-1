@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: verdana, sans-serif;
+	background-image: url(../img/Torre-agbar-nit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p{
+
+	font-size: 12px;
+	color: #fff;
+	padding: 4px 8px;
+	margin-bottom: 10px;
+}
+
+
+/*** GENERAL PROPERTIES ***/
+
+.wrapper{
+	max-width: 920px;
+	margin: 0 auto;
+	padding:  20px;
+}
+
+
+/*** WRAPPER ***/
+
+h1{
+	font-size: 26px;
+    color: #fff;
+    padding: 6px;
+    color: #fff;
+
+}
+
+h1 span:nth-child(1){color: #ff7e00;}
+
+h2{
+	margin-top: 20px;
+	font-size: 24px;
+    color: #fff;
+    padding: 6px;
+    color: #fff;
+
+}
+
+
+.item{
+	text-align: right;
+	margin-bottom: 16px;
+	padding: 10px;
+	border-radius: 8px;
+    background-color:rgba(0, 0, 0, .6);
+}
+
+.item li{
+	display: inline-block;
+
+}
+
+.item a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+
+.item a:hover{
+	
+	border-radius: 5px;
+	color: orange;
+}
+
+
+/*** MAIN ***/
+
+main{
+	overflow: auto;
+    background-color:rgba(0, 0, 0, .6); 
+    border-radius: 10px 10px 0 0;
+}
+
+section{
+	width: 630px;
+	float: left;
+	padding: 10px;	
+
+}
+
+
+section p{
+	line-height: 1.4em;
+}
+aside{
+	float: right;
+}
+
+aside h3{
+    margin-top: 54px;
+    font-size: 20px;
+    color: #fff;
+    padding: 6px;
+    color: #fff;
+
+}
+
+.llocs{
+	padding-bottom: 15px;
+
+}
+
+aside p{
+
+	font-style: italic;
+	color:#ff7e00;
+	line-height: 1.4em;
+}
+
+
+.item-1::before {
+	content: url(../img/bullet_white_alt.png);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item-1 a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	line-height: 2.4em;
+
+}
+
+
+.btn-next {color: #fff; display: block; text-align: right; text-decoration: none;}
+
+
+
+/*** FOOTER ***/
+
+footer {
+	text-align: center;
+	background-color:rgba(0, 0, 0, .6); 
+    border-radius: 0 0 8px 8px;
+    text-decoration: none;
+}
+
+footer p{
+	text-decoration: none;
+}
